@@ -3,11 +3,31 @@
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0 0 120px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 120px;
+  width: 100%;
+  overflow: hidden;
+}
 
 // Paddings
 .padded {
   padding-top: 5em;
   padding-bottom: 5em;
+}
+.team-member {
+  padding-left: 30px;
 }
 
 // Backgrounds
@@ -23,3 +43,12 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+// Links
+
+.contact-link {
+  padding: 40px 0 70px;
+  font-size: 25px;
+  color: $orange;
+}
+
